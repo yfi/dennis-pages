@@ -35,6 +35,7 @@ content:
       - name: media
         label: media_items
         type: object
+        list: true
         fields:
           - name: image
             label: Image
