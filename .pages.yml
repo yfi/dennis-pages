@@ -20,4 +20,7 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: thumbnail
+        label: Thumbnail
+        type: media
   
