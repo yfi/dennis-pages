@@ -76,6 +76,6 @@ content:
                 type: image
               - name: caption
                 label: caption
-                type: rich-text
+                type: text
 
   
