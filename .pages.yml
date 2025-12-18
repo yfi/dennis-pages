@@ -58,7 +58,6 @@ content:
         list: true
         options:
           collection: pics
-          multiple: true
           search: "caption"
           value: "{caption}"
           label: "{caption}"
