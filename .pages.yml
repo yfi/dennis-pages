@@ -62,5 +62,20 @@ content:
           value: "{caption}"
           label: "{caption}"
           image: "{image}"
+      - name: blocks
+        label: Page Sections
+        type: block
+        list: true 
+        blockKey: type 
+        blocks:
+          - name: image
+            label: Image
+            fields:
+              - name: image
+                label: image
+                type: image
+              - name: caption
+                label: caption
+                type: rich-text
 
   
