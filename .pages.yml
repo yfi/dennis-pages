@@ -52,6 +52,8 @@ content:
           - name: alt
             label: Alt
             type: rich-text
+            options:
+              media: false
       - name: slides
         label: slides
         type: reference
