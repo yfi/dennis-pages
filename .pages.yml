@@ -21,6 +21,6 @@ content:
         label: Body
         type: rich-text
       - name: thumbnail
-        label: Thumbnail
-        type: media
+        label: Featured Image
+        type: image
   
