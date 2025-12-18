@@ -17,9 +17,6 @@ content:
       - name: title
         label: Title
         type: string
-      - name: body
-        label: Body
-        type: rich-text
       - name: thumbnail
         label: Featured Image
         type: image
