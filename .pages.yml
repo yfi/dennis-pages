@@ -17,8 +17,16 @@ content:
       - name: thumbnail
         label: Featured Image
         type: image
-      - name: gallery
+      - name: media
         label: Image Gallery
         type: image-with-caption
         options:
           multiple: true
+      - name: layouts
+        label: Layouts
+        type: gallery-layout
+        options:
+          sourceField: images
+          defaultCols: 12
+          defaultRowHeight: 30
+          
