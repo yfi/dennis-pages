@@ -5,7 +5,7 @@ content:
     type: collection
     path: '_pics'
     view:
-      fields: [ image, alt ]
+      fields: [ image, caption ]
     fields:
       - name: image
         label: alt
