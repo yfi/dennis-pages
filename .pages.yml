@@ -8,7 +8,7 @@ content:
       fields: [ image, caption ]
     fields:
       - name: image
-        label: alt
+        label: image
         type: image
       - name: caption
         label: caption
@@ -59,9 +59,9 @@ content:
         options:
           collection: pics
           multiple: true
-          search: "alt"
-          value: "{alt}"
-          label: "{alt}"
+          search: "caption"
+          value: "{caption}"
+          label: "{caption}"
           image: "{image}"
 
   
