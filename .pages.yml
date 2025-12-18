@@ -52,5 +52,16 @@ content:
           - name: alt
             label: Alt
             type: string
+      - name: slides
+        label: slides
+        type: reference
+        list: true
+        options:
+          collection: products
+          multiple: true
+          search: "title,description"
+          value: "{id}"
+          label: "{title} - ${price}"
+          image: "{featured_image}"
 
   
