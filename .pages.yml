@@ -1,4 +1,8 @@
 media: media
+fields: 
+  - name: alt
+    type: string
+    label: alt
 content:
   - name: posts
     label: Posts
@@ -28,4 +32,15 @@ content:
         type: image
         options:
           multiple: true
+      - name: media
+        label: media_items
+        type: object
+        fields:
+          - name: image
+            label: Image
+            type: image
+          - name: alt
+            label: Alt
+            type: string
+
   
