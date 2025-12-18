@@ -27,5 +27,5 @@ content:
         label: Image Gallery
         type: image
         options:
-          multiple:
+          multiple: true
   
