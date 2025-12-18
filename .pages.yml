@@ -57,7 +57,7 @@ content:
         type: reference
         list: true
         options:
-          collection: products
+          collection: slides
           multiple: true
           search: "title,description"
           value: "{id}"
