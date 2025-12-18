@@ -24,9 +24,6 @@ content:
           multiple: true
       - name: layouts
         label: Layouts
-        type: gallery-layout
-        options:
-          sourceField: images
-          defaultCols: 12
-          defaultRowHeight: 30
+        type: image-gallery
+
           
