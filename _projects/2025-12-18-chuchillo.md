@@ -13,9 +13,20 @@ layouts:
   layouts:
     layout-1:
       name: Layout 1
-      cols: 12
+      cols: 1
       rowHeight: 30
       constrainCols: false
-      constrainRows: false
+      constrainRows: true
+      items:
+        - i: "84876226"
+          x: 0
+          y: 0
+          w: 2
+          h: 1
+        - i: b2d9d133
+          x: 3
+          y: 0
+          w: 4
+          h: 3
   activeLayout: layout-1
 ---
