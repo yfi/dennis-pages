@@ -23,4 +23,9 @@ content:
       - name: thumbnail
         label: Featured Image
         type: image
+      - name: gallery
+        label: Image Gallery
+        type: image
+        options:
+          multiple:
   
