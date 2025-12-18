@@ -1,18 +1,5 @@
 media: media
 content:
-  - name: pics
-    label: Pics
-    type: collection
-    path: '_pics'
-    view:
-      fields: [ image, caption ]
-    fields:
-      - name: image
-        label: image
-        type: image
-      - name: caption
-        label: caption
-        type: rich-text  
   - name: posts
     label: Posts
     type: collection
@@ -38,46 +25,6 @@ content:
         type: image
       - name: gallery
         label: Image Gallery
-        type: image
+        type: image-with-caption
         options:
           multiple: true
-      - name: media
-        label: media_items
-        type: object
-        list: true
-        fields:
-          - name: image
-            label: Image
-            type: image
-          - name: alt
-            label: Alt
-            type: rich-text
-            options:
-              media: false
-      - name: slides
-        label: slides
-        type: reference
-        list: true
-        options:
-          collection: pics
-          search: "caption"
-          value: "{caption}"
-          label: "{caption}"
-          image: "{image}"
-      - name: blocks
-        label: Page Sections
-        type: block
-        list: true 
-        blockKey: type 
-        blocks:
-          - name: image
-            label: Image
-            fields:
-              - name: image
-                label: image
-                type: image
-              - name: caption
-                label: caption
-                type: text
-
-  
