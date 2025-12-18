@@ -51,7 +51,7 @@ content:
             type: image
           - name: alt
             label: Alt
-            type: string
+            type: rich-text
       - name: slides
         label: slides
         type: reference
