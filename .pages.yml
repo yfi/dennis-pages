@@ -1,9 +1,18 @@
 media: media
-fields: 
-  - name: alt
-    type: string
-    label: alt
 content:
+  - name: pics
+    label: Pics
+    type: collection
+    path: '_pics'
+    view:
+      fields: [ image, alt ]
+    fields:
+      - name: image
+        label: alt
+        type: image
+      - name: caption
+        label: caption
+        type: rich-text  
   - name: posts
     label: Posts
     type: collection
