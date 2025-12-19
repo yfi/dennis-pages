@@ -4,9 +4,10 @@ title: Chuchillo
 thumbnail: /media/LW_Chuchillo_1A-4.jpg
 media:
   - src: /media/LW_Chuchillo_1A-1.jpg
+    caption: <p>Chuchillo Lorem Ipsum Dolor Sit Amet</p>
     layout: |-
       {
-      "hello":"goodbye
+      "hello":"goodbye"
       }
   - src: /media/LW_Chuchillo_1A-2.jpg
   - src: /media/LW_Chuchillo_1A-3.jpg
