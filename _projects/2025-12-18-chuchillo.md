@@ -6,7 +6,7 @@ media:
   - src: /media/LW_Chuchillo_1A-1.jpg
     layout: |-
       {
-      "hello":"goodbye"
+      "hello":"goodbye
       }
   - src: /media/LW_Chuchillo_1A-2.jpg
   - src: /media/LW_Chuchillo_1A-3.jpg
