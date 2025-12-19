@@ -22,8 +22,6 @@ content:
         type: image-with-caption
         options:
           multiple: true
-      - name: layouts
-        label: Layouts
-        type: image-gallery
+
 
           
